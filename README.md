@@ -1,2 +1,2 @@
 # Randomica
-Username and password generator
+Generates random usernames and passwords.
