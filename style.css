@@ -1,0 +1,95 @@
+ body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+.title{
+  color: white;
+  text-align:center;
+  font-family: helvetica;
+  margin-top:28px;
+  
+  }
+
+.container{
+  display: block;
+  width:800px;
+  height: auto;
+  border:49px;
+  border-radius:14px;
+  align-items: center;
+  position: relative;
+  margin-top:7em;
+  padding:6px,6px;
+  background-color: gray;
+  box-shadow: 4px;
+  
+  
+  }
+
+#userName{
+  color: whitesmoke;
+  text-align:center;
+  font-family: helvetica;
+  font-size: 30px;
+  padding-top:12px;
+  
+  }
+
+  #password{
+    color: whitesmoke;
+    text-align:center;
+    font-family: helvetica;
+    font-size: 30px;
+    padding-top:12px;
+    
+    }
+
+p{
+  color: whitesmoke;
+  text-align:center;
+  font-family: helvetica;
+  font-size: 23px;
+  margin-bottom: 18px;
+}
+
+.username-button{
+  padding: 14px,12px;
+  text-decoration: none;
+  font-size: 23px;
+  display: inline-block;
+  font-family: helvetica;
+  color: white;
+  background-color: blue;
+  margin-left: 10em;
+  margin-bottom: 2em;
+  border: gray;
+  border-radius: 40px;
+  box-shadow: 8px;
+  text-align: center;
+  align-items: center;
+ 
+
+ 
+ 
+}
+
+.username-button:hover{
+  background-color: darkblue;
+}
+
+
+.footer{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   width: 100%;
+   height: 200px;
+   background-color: darkblue;
+   position: fixed;
+   margin-top: 13.5em;
+   
+
+}
