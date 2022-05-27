@@ -14,14 +14,15 @@
   }
 
 .container{
-  display: block;
+  display: flex;
+  flex-direction: column;
   width:800px;
   height: auto;
   border:49px;
   border-radius:14px;
   align-items: center;
-  position: relative;
-  margin-top:7em;
+  position: sticky;
+  margin-top:2em;
   padding:6px,6px;
   background-color: gray;
   box-shadow: 4px;
@@ -33,8 +34,8 @@
   color: whitesmoke;
   text-align:center;
   font-family: helvetica;
-  font-size: 30px;
-  padding-top:12px;
+  font-size: 35px;
+  padding-top:6px;
   
   }
 
@@ -42,8 +43,8 @@
     color: whitesmoke;
     text-align:center;
     font-family: helvetica;
-    font-size: 30px;
-    padding-top:12px;
+    font-size: 35px;
+    padding-top:6px;
     
     }
 
@@ -56,20 +57,20 @@ p{
 }
 
 .username-button{
-  padding: 14px,12px;
+  padding: 8px;
+  margin: 17px;
   text-decoration: none;
-  font-size: 23px;
+  font-size: 25px;
   display: inline-block;
   font-family: helvetica;
   color: white;
   background-color: blue;
-  margin-left: 10em;
-  margin-bottom: 2em;
-  border: gray;
+  border: none;
   border-radius: 40px;
   box-shadow: 8px;
   text-align: center;
   align-items: center;
+  
  
 
  
@@ -82,14 +83,13 @@ p{
 
 
 .footer{
-   display: flex;
-   flex-direction: column;
    text-align: center;
+   left: 0;
+   bottom: 0;
    width: 100%;
-   height: 200px;
    background-color: darkblue;
    position: fixed;
-   margin-top: 13.5em;
+  
    
 
 }
