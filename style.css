@@ -22,7 +22,8 @@
   border-radius:14px;
   align-items: center;
   position: sticky;
-  margin-top:2em;
+  margin: auto;
+  margin-top: 2em;
   padding:6px,6px;
   background-color: gray;
   box-shadow: 4px;
